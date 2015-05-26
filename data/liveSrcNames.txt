@@ -1,0 +1,16 @@
+1, curve1;
+2, curve2;
+3, curve3;
+4, curve4;
+5, dial1;
+6, dial2;
+7, dial3;
+8, dial4;
+9, note1;
+10, note2;
+11, note3;
+12, note4;
+13, noteT1;
+14, noteT2;
+15, noteT3;
+16, noteT4; 

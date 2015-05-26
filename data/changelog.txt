@@ -1,0 +1,48 @@
+11 / 3
+
+isjtar 
+listEnv: remove env init bug
+
+Alpha:
+refactor Com into Alpha
+
+pattrstorage:
+	- gui
+	- backup mode
+
+add alpha.dmxProcessing: 
+	- GUI 
+	- update scaling to modern method 
+	- address table size adapts to num lights
+ 
+add alphaOSCin
+	- osc monitoring cellblock interface
+	- transport 
+	- priset
+
+add imp artnet
+
+alpha.worm: remodel (fail)
+
+Record:
+	- samplesync with count~ and seq~
+	- play 
+	- record
+
+Audio:
+	- awesome speaker position gen
+	- some switches
+	- TODO discuss what we want 
+
+Var:
+renamed conflicting ambisonics externals in Munt to *32.mxo	
+
+TODO
+
+record: remote trigger, play rate camera control https://cycling74.com/forums/topic/is-it-possible-to-connect-canon-5d-mark-iii-to-max-mspjitter-f-as-a-webcam/
+write proper init procedure
+check with dimmers whether to inversely scale the listenvs, or as an option
+check priset switching
+what caused the preset switching issue of all lights switching on?
+JS objects threading
+pattrstorage which savemode?

@@ -1,0 +1,6 @@
+1, anaHilCount;
+2, anaHilBang;
+3, anaClickCount;
+4, anaClickBang;
+5, anaCurveAccum;
+6, anaCurve;
