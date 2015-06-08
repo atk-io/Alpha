@@ -1,8 +1,8 @@
 {
 	"name" : "Alpha",
 	"version" : 1,
-	"creationdate" : -788024227,
-	"modificationdate" : 3510149764,
+	"creationdate" : -788024348,
+	"modificationdate" : 3516614959,
 	"viewrect" : [ 4.0, 45.0, 469.0, 855.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -71,11 +71,6 @@
 				"local" : 1
 			}
 ,
-			"alpha.vermes.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"alpha.ghost.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -137,6 +132,11 @@
 			}
 ,
 			"imp.dmx.artnetout.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"alpha.vermes.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -230,17 +230,12 @@
 				"local" : 1
 			}
 ,
-			"alpha.listSet.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
 			"alpha.wormToGrid.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
-			"alpha.joinLists.js" : 			{
+			"alpha.listSet.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -284,17 +279,17 @@
 				"local" : 1
 			}
 ,
-			"OpenSoundControl.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
 			"MIAP.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
 			"dmxusbpro.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"OpenSoundControl.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -306,7 +301,7 @@
 				"kind" : "application",
 				"singleton" : 				{
 					"bootpath" : "~/Dropbox/ATK!/Promotion/danski_logo",
-					"projectrelativepath" : "../../../Promotion/danski_logo"
+					"projectrelativepath" : "../../../../Dropbox/ATK!/Promotion/danski_logo"
 				}
 
 			}
