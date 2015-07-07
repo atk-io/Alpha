@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 498.0, 83.0, 1081.0, 948.0 ],
+		"rect" : [ 243.0, 79.0, 1081.0, 948.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -213,7 +213,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 692.0, 520.0, 69.0, 22.0 ],
+					"patching_rect" : [ 638.599976, 524.0, 69.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"style" : "",
 					"text" : "thispatcher"
@@ -786,7 +786,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 95.399994, 620.100037, 77.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.8 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -843,7 +843,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 232.399994, 356.900024, 83.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ -749 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -956,12 +956,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 616.0, 143.0, 996.0, 523.0 ],
+						"rect" : [ 2102.0, 182.0, 1058.0, 774.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1311,12 +1311,12 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
-									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1351,12 +1351,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 119.0, 410.0, 640.0, 480.0 ],
+						"rect" : [ 2156.0, 184.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1641,8 +1641,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1824,8 +1824,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2216,8 +2216,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2250,12 +2250,39 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-3",
+									"id" : "obj-13",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 131.0, 244.0, 150.0, 33.0 ],
+									"style" : "",
+									"text" : "abs because -1 on inlet 2 causes nan downstream"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 37.0, 244.0, 87.0, 22.0 ],
+									"style" : "",
+									"text" : "vexpr abs($f1)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 86.0, 55.0, 29.5, 22.0 ],
+									"patching_rect" : [ 86.0, 75.0, 29.5, 22.0 ],
+									"presentation_rect" : [ 265.0, 69.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "- 1"
 								}
@@ -2268,7 +2295,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 37.0, 185.0, 223.0, 22.0 ],
+									"patching_rect" : [ 37.0, 192.0, 223.0, 22.0 ],
 									"style" : "",
 									"text" : "vexpr ($f1 + $f2) % 255 @scalarmode 1"
 								}
@@ -2281,7 +2308,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 257.0, 30.0, 30.0 ],
+									"patching_rect" : [ 37.0, 289.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -2293,7 +2320,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 86.0, 82.0, 30.0, 22.0 ],
+									"patching_rect" : [ 86.0, 116.0, 30.0, 22.0 ],
 									"style" : "",
 									"text" : "t b i"
 								}
@@ -2307,7 +2334,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 19.0, 30.0, 30.0 ],
+									"patching_rect" : [ 86.0, 27.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -2337,19 +2364,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
+									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -2373,10 +2391,28 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
+									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -2384,12 +2420,12 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
-									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3039,8 +3075,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "listEnv.maxpat",
-				"bootpath" : "~/Dropbox/ATK!/Code/Max/Alpha/Alpha/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3049,12 +3084,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
