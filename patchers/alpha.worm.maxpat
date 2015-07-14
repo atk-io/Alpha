@@ -2255,7 +2255,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 138.0, 105.0, 218.0, 33.0 ],
-									"presentation_rect" : [ 139.0, 103.5, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "setting scroll to -1 will set the shape to the default regular shape."
 								}

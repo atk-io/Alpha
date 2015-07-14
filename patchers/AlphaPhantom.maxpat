@@ -40,6 +40,20 @@
 		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-94",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1101.0, 719.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 397.0, 57.5, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "master"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-39",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -1498,17 +1512,17 @@
 			"obj-54" : [ "live.text[20]", "live.text[12]", 0 ],
 			"obj-2::obj-155" : [ "live.text[2]", "live.text", 0 ],
 			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
+			"obj-4::obj-29::obj-39" : [ "live.text[22]", "live.text", 0 ],
 			"obj-3::obj-37" : [ "live.text[7]", "live.text", 0 ],
 			"obj-4::obj-1::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-53::obj-61" : [ "live.text[13]", "live.text", 0 ],
 			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
-			"obj-4::obj-29::obj-36" : [ "live.text[8]", "live.text", 0 ],
 			"obj-53::obj-58" : [ "live.text[11]", "live.text", 0 ],
 			"obj-229" : [ "live.text[16]", "live.text[5]", 0 ],
 			"obj-2::obj-148" : [ "live.text", "live.text", 0 ],
 			"obj-2::obj-159" : [ "live.text[4]", "live.text", 0 ],
 			"obj-35" : [ "live.text[25]", "live.text[9]", 0 ],
-			"obj-4::obj-29::obj-39" : [ "live.text[9]", "live.text", 0 ],
+			"obj-4::obj-29::obj-36" : [ "live.text[19]", "live.text", 0 ],
 			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ]
 		}
 ,
