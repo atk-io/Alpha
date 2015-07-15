@@ -62,9 +62,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 184.0, 886.0, 35.0 ],
+					"patching_rect" : [ 112.0, 184.0, 140.0, 35.0 ],
 					"style" : "",
-					"text" : "3. 150. 255 255 255 255 255 255 255 255 150. 3. 150. 255 255 255 255 255 255 255 255 150. 3. 150. 255 255 255 255 255 255 255 255 150. 3. 150. 255 255 255 255 255 255 255 255 150. 3. 150. 255 255 255 255 255 255 255 255 150. 3. 150. 255 255 255 255 255 255 255 255 150."
+					"text" : "3. 52. 103. 154. 205. 255"
 				}
 
 			}
@@ -196,7 +196,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 551.0, 186.0, 30.0, 22.0 ],
+					"patching_rect" : [ 551.0, 190.5, 30.0, 22.0 ],
 					"style" : "",
 					"text" : "t b i"
 				}
@@ -829,7 +829,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 589.0, 158.0, 73.0, 22.0 ],
+					"patching_rect" : [ 591.0, 162.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "s numRows"
 				}
@@ -1011,7 +1011,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 158.0, 73.0, 22.0 ],
+					"patching_rect" : [ 487.5, 162.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "s wormSize"
 				}
@@ -1500,32 +1500,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-149" : [ "live.text[1]", "live.text", 0 ],
-			"obj-53::obj-56" : [ "live.text[10]", "live.text", 0 ],
-			"obj-34::obj-9" : [ "live.text[12]", "live.text[9]", 0 ],
-			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
-			"obj-3::obj-47" : [ "live.text[5]", "live.text[2]", 0 ],
-			"obj-3::obj-37" : [ "live.text[6]", "live.text", 0 ],
-			"obj-4::obj-5::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
-			"obj-2::obj-157" : [ "live.text[3]", "live.text", 0 ],
-			"obj-54" : [ "live.text[20]", "live.text[12]", 0 ],
-			"obj-2::obj-155" : [ "live.text[2]", "live.text", 0 ],
-			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
-			"obj-4::obj-29::obj-39" : [ "live.text[22]", "live.text", 0 ],
-			"obj-3::obj-36" : [ "live.text[7]", "live.text", 0 ],
-			"obj-4::obj-1::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-34::obj-10" : [ "live.text[13]", "live.text[9]", 0 ],
-			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
 			"obj-53::obj-61" : [ "live.text[8]", "live.text", 0 ],
-			"obj-53::obj-58" : [ "live.text[11]", "live.text", 0 ],
-			"obj-229" : [ "live.text[16]", "live.text[5]", 0 ],
-			"obj-2::obj-148" : [ "live.text", "live.text", 0 ],
+			"obj-53::obj-33" : [ "live.text[11]", "live.text", 0 ],
+			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
+			"obj-54" : [ "live.text[20]", "live.text[12]", 0 ],
+			"obj-2::obj-149" : [ "live.text[1]", "live.text", 0 ],
+			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
+			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-2::obj-159" : [ "live.text[4]", "live.text", 0 ],
+			"obj-229" : [ "live.text[16]", "live.text[5]", 0 ],
+			"obj-53::obj-56" : [ "live.text[10]", "live.text", 0 ],
+			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
 			"obj-35" : [ "live.text[25]", "live.text[9]", 0 ],
-			"obj-53::obj-33" : [ "live.text[9]", "live.text", 0 ],
-			"obj-4::obj-29::obj-36" : [ "live.text[19]", "live.text", 0 ],
-			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ]
+			"obj-3::obj-47" : [ "live.text[5]", "live.text[2]", 0 ],
+			"obj-4::obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
+			"obj-3::obj-37" : [ "live.text[6]", "live.text", 0 ],
+			"obj-53::obj-58" : [ "live.text[9]", "live.text", 0 ],
+			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
+			"obj-34::obj-9" : [ "live.text[12]", "live.text[9]", 0 ],
+			"obj-2::obj-157" : [ "live.text[3]", "live.text", 0 ],
+			"obj-3::obj-36" : [ "live.text[7]", "live.text", 0 ],
+			"obj-2::obj-155" : [ "live.text[2]", "live.text", 0 ],
+			"obj-34::obj-10" : [ "live.text[13]", "live.text[9]", 0 ],
+			"obj-2::obj-148" : [ "live.text", "live.text", 0 ],
+			"obj-4::obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1535,13 +1533,19 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audio.maxpat",
+				"name" : "Audio.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "record.maxpat",
+				"name" : "alpha.genAmbiPos.js",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Record.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1580,6 +1584,12 @@
 				"name" : "popDest.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "alpha.parseModMat.js",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1637,9 +1647,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "alpha.miap.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"type" : "JSON",
+				"name" : "alpha.wormToGrid.js",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1649,9 +1659,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "liveSrcNames.txt",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "alpha.anal.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "analSrc.txt",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1664,6 +1686,12 @@
 				"name" : "alpha.dmxProcessing.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "DMX",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/other",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -1695,14 +1723,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "MIAP.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "MIAP.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "mxj.mxo",
 				"type" : "iLaX"
 			}
@@ -1715,12 +1735,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

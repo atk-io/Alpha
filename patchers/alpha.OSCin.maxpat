@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -185,7 +185,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -761,7 +761,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1299,7 +1299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 55.0, 99.0, 22.0 ],
+					"patching_rect" : [ 97.0, 30.0, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "udpreceive 8989"
 				}
@@ -1580,7 +1580,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "cellSetFlash.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

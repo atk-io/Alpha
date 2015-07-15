@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 914.0, 316.0, 640.0, 480.0 ],
+		"rect" : [ 914.0, 316.0, 682.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 142.987549, 265.5, 154.0, 33.0 ],
+					"style" : "",
+					"text" : "last bang to menu to avoid stack overflow on init"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -69,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.987549, 320.0, 55.0, 22.0 ],
+					"patching_rect" : [ 390.987549, 297.5, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "sort -1 1"
 				}
@@ -80,11 +93,11 @@
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "dump", "clear", "bang" ],
-					"patching_rect" : [ 142.987549, 287.0, 87.0, 22.0 ],
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "dump", "clear", "bang" ],
+					"patching_rect" : [ 292.987549, 265.5, 97.0, 22.0 ],
 					"style" : "",
-					"text" : "t dump clear b"
+					"text" : "t b dump clear b"
 				}
 
 			}
@@ -151,7 +164,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 142.987549, 253.0, 67.0, 22.0 ],
+					"patching_rect" : [ 292.987549, 230.5, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "r matDone"
 				}
@@ -405,6 +418,15 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-8", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-8", 2 ]
 				}
 
@@ -414,7 +436,7 @@
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-8", 1 ]
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -423,7 +445,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}
@@ -439,8 +461,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "alpha.parseModMat.js",
-				"bootpath" : "~/Dropbox/ATK!/Code/Max/Alpha/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
