@@ -56,32 +56,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-65",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 459.0, 166.0, 22.0 ],
-					"style" : "",
-					"text" : "152. 152. 152. 152. 152. 152."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-52",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 653.0, 608.0, 166.0, 22.0 ],
-					"style" : "",
-					"text" : "152. 152. 152. 152. 152. 152."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-87",
 					"maxclass" : "live.line",
 					"numinlets" : 1,
@@ -1190,10 +1164,10 @@
 								"name" : "atk001",
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial Bold" ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
@@ -2764,15 +2738,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-76", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2881,15 +2846,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2971,10 +2927,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-39::obj-31" : [ "smooth", "smooth", 0 ],
 			"obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ]
+			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-39::obj-31" : [ "smooth", "smooth", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3107,10 +3063,10 @@
 				"name" : "atk001",
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
