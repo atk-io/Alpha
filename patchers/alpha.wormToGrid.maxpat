@@ -156,7 +156,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 726.058716, 203.5, 22.0 ],
+					"patching_rect" : [ 65.0, 749.058716, 203.5, 22.0 ],
 					"style" : "",
 					"text" : "alpha.listinterp"
 				}
@@ -443,7 +443,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 760.0, 25.0, 25.0 ],
+					"patching_rect" : [ 65.0, 800.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -868,12 +868,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ],
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontname" : [ "Arial Bold" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
