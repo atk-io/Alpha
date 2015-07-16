@@ -843,7 +843,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 232.399994, 356.900024, 83.0, 22.0 ],
-					"restore" : [ -1 ],
+					"restore" : [ -226 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1311,12 +1311,12 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
+									"fontname" : [ "Arial Bold" ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2255,7 +2255,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 138.0, 105.0, 218.0, 33.0 ],
-									"presentation_rect" : [ 139.0, 103.5, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "setting scroll to -1 will set the shape to the default regular shape."
 								}
@@ -2309,7 +2308,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 42.0, 192.0, 223.0, 22.0 ],
 									"style" : "",
-									"text" : "vexpr ($f1 + $f2) % 255 @scalarmode 1"
+									"text" : "vexpr ($f1 + $f2) % 256 @scalarmode 1"
 								}
 
 							}
@@ -2432,12 +2431,12 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
+									"fontname" : [ "Arial Bold" ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3096,12 +3095,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
