@@ -576,7 +576,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 479.666718, 689.099976, 51.0, 22.0 ],
-					"restore" : [ 350 ],
+					"restore" : [ 1000 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -786,7 +786,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 95.399994, 620.100037, 77.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -843,7 +843,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 232.399994, 356.900024, 83.0, 22.0 ],
-					"restore" : [ -226 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
