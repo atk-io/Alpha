@@ -1,8 +1,8 @@
 {
 	"name" : "Alpha",
 	"version" : 1,
-	"creationdate" : -788024348,
-	"modificationdate" : 3516614959,
+	"creationdate" : -788024469,
+	"modificationdate" : 3522941998,
 	"viewrect" : [ 4.0, 45.0, 469.0, 855.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -193,6 +193,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"alpha.wormRohzlas.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -320,5 +325,7 @@
 ,
 	"detailsvisible" : 1,
 	"amxdtype" : 1633771873,
-	"readonly" : 0
+	"readonly" : 0,
+	"devpathtype" : 0,
+	"devpath" : "."
 }

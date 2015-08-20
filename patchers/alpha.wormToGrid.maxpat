@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -425,7 +425,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 188.0, 43.0, 79.0, 22.0 ],
-					"restore" : [ 5 ],
+					"restore" : [ 7 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -495,7 +495,7 @@
 				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 112.0, 142.0, 22.0 ],
@@ -837,16 +837,20 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "alpha.wormToGrid.js",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pipeall.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.listinterp.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -855,12 +859,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
