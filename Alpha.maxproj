@@ -1,8 +1,8 @@
 {
 	"name" : "Alpha",
 	"version" : 1,
-	"creationdate" : -788024469,
-	"modificationdate" : 3519812144,
+	"creationdate" : -788024348,
+	"modificationdate" : 3516614959,
 	"viewrect" : [ 4.0, 45.0, 469.0, 855.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -91,17 +91,17 @@
 				"local" : 1
 			}
 ,
+			"alpha.miap.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"alpha.liveMod.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"alpha.anal.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"alpha.miap.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -179,6 +179,14 @@
 			"alpha.osc.amxd" : 			{
 				"kind" : "maxforlive",
 				"local" : 1
+			}
+,
+			"alpha.represent.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"alpha.neon.maxpat" : 			{
+				"kind" : "patcher"
 			}
 ,
 			"imp.dmx.artnetin.maxpat" : 			{
@@ -312,7 +320,5 @@
 ,
 	"detailsvisible" : 1,
 	"amxdtype" : 1633771873,
-	"readonly" : 0,
-	"devpathtype" : 0,
-	"devpath" : "."
+	"readonly" : 0
 }
