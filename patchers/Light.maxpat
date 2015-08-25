@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 304.0, 79.0, 1852.0, 963.0 ],
+		"rect" : [ 34.0, 79.0, 1852.0, 963.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -401,7 +401,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -896,11 +896,11 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontsize" : [ 11.0 ],
 									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial Bold" ]
 								}
 ,
@@ -1131,29 +1131,6 @@
 					"patching_rect" : [ 256.0, 8.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "alpha.liveMod"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-29",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "alpha.miap.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.5, 644.5, 150.0, 68.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1318.0, 487.0, 398.0, 257.0 ],
-					"varname" : "alpha.miap",
-					"viewvisibility" : 1
 				}
 
 			}
@@ -1798,26 +1775,6 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"border" : 2,
-					"bordercolor" : [ 0.156863, 0.156863, 0.156863, 1.0 ],
-					"id" : "obj-52",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1265.5, 592.25, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1310.5, 461.5, 419.5, 429.5 ],
-					"proportion" : 0.39,
-					"rounded" : 0,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 2,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-40",
 					"maxclass" : "panel",
@@ -1842,7 +1799,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1278.552612, 431.0, 603.892456, 638.799534 ],
+					"patching_rect" : [ 1278.552612, 431.0, 638.799561, 675.724391 ],
 					"pic" : "/Users/isjtar/Dropbox/ATK!/Promotion/ATK! Digizik Graphics/LogoRenders/LogoCadreSquare.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 1310.5, 12.518817, 512.0, 541.595376 ]
@@ -2192,10 +2149,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-108", 3 ],
+					"destination" : [ "obj-76", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-29", 0 ]
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -2241,6 +2198,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-63", 1 ]
 				}
 
 			}
@@ -2331,24 +2297,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-48", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-63", 1 ]
 				}
 
 			}
@@ -2516,170 +2464,140 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-39::obj-31" : [ "smooth", "smooth", 0 ],
-			"obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-29::obj-36" : [ "live.text", "live.text", 0 ],
 			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-29::obj-39" : [ "live.text[1]", "live.text", 0 ]
+			"obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-1::obj-50" : [ "live.tab", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "LogoCadreWide.png",
 				"bootpath" : "~/Dropbox/ATK!/Promotion/ATK! Digizik Graphics/LogoRenders",
-				"patcherrelativepath" : "../../../../../Dropbox/ATK!/Promotion/ATK! Digizik Graphics/LogoRenders",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LogoCadreSquare.png",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/media",
-				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.worm.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listEnv.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.modMatrix.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "popDest.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.parseModMat.js",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
-				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "popSrc.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "destPat.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.lfo.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pi.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.ghost.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pipeall.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.listinterp.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.switch.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormToGrid.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormToGrid.js",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
-				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "alpha.miap.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.liveMod.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "liveSrcNames.txt",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
-				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.anal.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analSrc.txt",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
-				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "MIAP.map.mxo",
+				"name" : "mxj.mxo",
 				"type" : "iLaX"
 			}
  ],
@@ -2687,11 +2605,11 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 11.0 ],
 					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
