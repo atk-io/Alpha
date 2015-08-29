@@ -13,4 +13,8 @@
 13, noteT1;
 14, noteT2;
 15, noteT3;
-16, noteT4; 
+16, noteT4;
+17, noteV1;
+18, noteV2;
+19, noteV3;
+20, noteV4;

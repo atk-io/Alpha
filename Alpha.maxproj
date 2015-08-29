@@ -1,8 +1,8 @@
 {
 	"name" : "Alpha",
 	"version" : 1,
-	"creationdate" : -788024348,
-	"modificationdate" : 3516614959,
+	"creationdate" : -788024469,
+	"modificationdate" : 3523616680,
 	"viewrect" : [ 4.0, 45.0, 469.0, 855.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -91,11 +91,6 @@
 				"local" : 1
 			}
 ,
-			"alpha.miap.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"alpha.liveMod.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -132,6 +127,11 @@
 			}
 ,
 			"imp.dmx.artnetout.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"alpha.miap.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -265,6 +265,11 @@
 				"kind" : "textfile",
 				"local" : 1
 			}
+,
+			"synthagogue.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
 
 		}
 ,
@@ -274,22 +279,22 @@
 				"local" : 1
 			}
 ,
-			"MIAP.map.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"MIAP.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
 			"dmxusbpro.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
+			"MIAP.map.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
 			"OpenSoundControl.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"MIAP.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -320,5 +325,7 @@
 ,
 	"detailsvisible" : 1,
 	"amxdtype" : 1633771873,
-	"readonly" : 0
+	"readonly" : 0,
+	"devpathtype" : 0,
+	"devpath" : "."
 }

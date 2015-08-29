@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 494.0, 79.0, 1852.0, 963.0 ],
+		"rect" : [ 34.0, 79.0, 1852.0, 963.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,11 +40,37 @@
 		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 604.0, 407.0, 132.0, 22.0 ],
+					"style" : "",
+					"text" : "read synthagogue.json"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 604.0, 376.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.0, 358.0, 150.0, 20.0 ],
+					"patching_rect" : [ 246.0, 477.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 81.5, 359.0, 150.0, 20.0 ],
 					"style" : "",
@@ -105,19 +131,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 262.0, 170.5, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 453.6875, 405.0, 71.0, 22.0 ],
-					"style" : "",
-					"text" : "route priset"
 				}
 
 			}
@@ -278,9 +291,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 50.5, 277.0, 340.0, 94.0 ],
+					"patching_rect" : [ 50.5, 277.0, 345.5, 129.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 222.0, 340.0, 94.0 ],
+					"presentation_rect" : [ 26.0, 220.816803, 340.0, 115.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -974,6 +987,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "synthagogue.json",
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1160,15 +1174,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-224", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1196,7 +1201,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-224", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
@@ -1404,6 +1409,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1453,6 +1467,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -1521,30 +1544,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-157" : [ "live.text[3]", "live.text", 0 ],
-			"obj-3::obj-36" : [ "live.text[6]", "live.text", 0 ],
-			"obj-53::obj-58" : [ "live.text[12]", "live.text", 0 ],
-			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
-			"obj-3::obj-47" : [ "live.text[7]", "live.text[2]", 0 ],
-			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
-			"obj-2::obj-148" : [ "live.text", "live.text", 0 ],
-			"obj-53::obj-61" : [ "live.text[10]", "live.text", 0 ],
-			"obj-34::obj-9" : [ "live.text[15]", "live.text[9]", 0 ],
-			"obj-2::obj-149" : [ "live.text[1]", "live.text", 0 ],
-			"obj-2::obj-159" : [ "live.text[4]", "live.text", 0 ],
-			"obj-4::obj-1::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-35" : [ "live.text[25]", "live.text[9]", 0 ],
-			"obj-53::obj-33" : [ "live.text[13]", "live.text", 0 ],
-			"obj-3::obj-37" : [ "live.text[5]", "live.text", 0 ],
-			"obj-54" : [ "live.text[20]", "live.text[12]", 0 ],
-			"obj-229" : [ "live.text[16]", "live.text[5]", 0 ],
-			"obj-2::obj-155" : [ "live.text[2]", "live.text", 0 ],
-			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
-			"obj-4::obj-5::obj-50" : [ "live.tab", "live.tab", 0 ],
 			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
-			"obj-34::obj-10" : [ "live.text[14]", "live.text[9]", 0 ],
-			"obj-53::obj-56" : [ "live.text[11]", "live.text", 0 ]
+			"obj-54" : [ "live.text[20]", "live.text[12]", 0 ],
+			"obj-53::obj-33" : [ "live.text[8]", "live.text", 0 ],
+			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
+			"obj-53::obj-61" : [ "live.text[10]", "live.text", 0 ],
+			"obj-2::obj-159" : [ "live.text[4]", "live.text", 0 ],
+			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-4::obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
+			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
+			"obj-2::obj-149" : [ "live.text[1]", "live.text", 0 ],
+			"obj-34::obj-10" : [ "live.text[13]", "live.text[9]", 0 ],
+			"obj-34::obj-9" : [ "live.text[12]", "live.text[9]", 0 ],
+			"obj-3::obj-37" : [ "live.text[5]", "live.text", 0 ],
+			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
+			"obj-2::obj-157" : [ "live.text[3]", "live.text", 0 ],
+			"obj-2::obj-155" : [ "live.text[2]", "live.text", 0 ],
+			"obj-2::obj-148" : [ "live.text", "live.text", 0 ],
+			"obj-229" : [ "live.text[16]", "live.text[5]", 0 ],
+			"obj-3::obj-36" : [ "live.text[6]", "live.text", 0 ],
+			"obj-53::obj-58" : [ "live.text[9]", "live.text", 0 ],
+			"obj-4::obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-3::obj-47" : [ "live.text[7]", "live.text[2]", 0 ],
+			"obj-53::obj-56" : [ "live.text[11]", "live.text", 0 ],
+			"obj-35" : [ "live.text[25]", "live.text[9]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1704,6 +1727,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "synthagogue.json",
+				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "alpha.testData.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
 				"type" : "JSON",
@@ -1764,9 +1793,9 @@
 				"default" : 				{
 					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Arial Bold" ]
 				}
 ,
