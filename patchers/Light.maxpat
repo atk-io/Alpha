@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 83.0, 79.0, 1852.0, 903.0 ],
+		"rect" : [ 94.0, 79.0, 1480.0, 903.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -927,7 +927,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 610.5, 469.0, 207.0, 22.0 ],
-									"presentation_rect" : [ 610.0, 469.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "26 27 24 29 22 31 20 33 18 35 16 37"
 								}
@@ -941,7 +940,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 617.0, 417.0, 29.5, 22.0 ],
-									"presentation_rect" : [ 610.0, 515.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -954,7 +952,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 601.0, 574.0, 181.0, 22.0 ],
-									"presentation_rect" : [ 601.0, 574.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "12 13 10 15 8 17 6 19 4 21 2 23"
 								}
@@ -968,7 +965,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 601.0, 620.0, 207.0, 22.0 ],
-									"presentation_rect" : [ 604.0, 569.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "16 18 20 22 24 26 27 29 31 33 35 37"
 								}
@@ -1706,12 +1702,12 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
-									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial Bold" ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial Bold" ]
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3620,12 +3616,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-104::obj-50" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-50" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-39::obj-31" : [ "smooth", "smooth", 0 ],
-			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ]
+			"obj-104::obj-50" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-39::obj-31" : [ "smooth", "smooth", 0 ],
+			"obj-50" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3757,12 +3753,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
