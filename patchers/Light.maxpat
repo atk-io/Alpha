@@ -1312,9 +1312,9 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.0, 299.5, 205.0, 22.0 ],
+									"patching_rect" : [ 142.0, 299.5, 292.0, 22.0 ],
 									"style" : "",
-									"text" : "vexpr min($f1 + $f2 + $f3 + $f4\\, 255)"
+									"text" : "vexpr min($f1 + $f2 + $f3 + $f4\\, 255) @scalarmode 1"
 								}
 
 							}
@@ -1702,8 +1702,8 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Arial Bold" ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontface" : [ 1 ],
@@ -3616,11 +3616,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-104::obj-50" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-39::obj-31" : [ "smooth", "smooth", 0 ],
 			"obj-50" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
+			"obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-39::obj-31" : [ "smooth", "smooth", 0 ],
+			"obj-104::obj-50" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ]
 		}
 ,
@@ -3668,12 +3668,6 @@
 			}
 , 			{
 				"name" : "alpha.lfo.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pi.maxpat",
 				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3753,8 +3747,8 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontface" : [ 1 ],
