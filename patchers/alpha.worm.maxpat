@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 329.0, 79.0, 1081.0, 948.0 ],
+		"rect" : [ 988.0, 85.0, 890.0, 920.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -74,7 +74,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -701,7 +701,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 789.400024, 695.699951, 31.0, 20.0 ],
+					"patching_rect" : [ 789.400024, 695.699951, 39.0, 20.0 ],
 					"style" : "",
 					"text" : "env\n"
 				}
@@ -1285,12 +1285,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 2102.0, 182.0, 1058.0, 774.0 ],
+						"rect" : [ 83.0, 109.0, 1058.0, 774.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1319,11 +1319,37 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 524.0, 227.0, 24.0, 22.0 ],
+									"style" : "",
+									"text" : "t 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 524.0, 191.0, 36.0, 22.0 ],
+									"style" : "",
+									"text" : "sel 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-20",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 347.0, 278.0, 65.0, 20.0 ],
+									"patching_rect" : [ 346.0, 359.0, 65.0, 20.0 ],
 									"style" : "",
 									"text" : " hard limit"
 								}
@@ -1335,7 +1361,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 593.5, 174.0, 39.0, 20.0 ],
+									"patching_rect" : [ 592.5, 255.0, 39.0, 20.0 ],
 									"style" : "",
 									"text" : "fold"
 								}
@@ -1347,7 +1373,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 391.5, 174.0, 39.0, 20.0 ],
+									"patching_rect" : [ 390.5, 255.0, 39.0, 20.0 ],
 									"style" : "",
 									"text" : "warp"
 								}
@@ -1359,7 +1385,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 129.5, 174.0, 29.0, 20.0 ],
+									"patching_rect" : [ 128.5, 255.0, 29.0, 20.0 ],
 									"style" : "",
 									"text" : "clip"
 								}
@@ -1372,7 +1398,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 100.0, 344.0, 30.0, 30.0 ],
+									"patching_rect" : [ 99.0, 425.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -1397,7 +1423,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 100.0, 246.0, 64.0, 22.0 ],
+									"patching_rect" : [ 99.0, 327.0, 64.0, 22.0 ],
 									"style" : "",
 									"text" : "switch 3 1"
 								}
@@ -1410,7 +1436,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 100.0, 278.0, 242.0, 22.0 ],
+									"patching_rect" : [ 99.0, 359.0, 242.0, 22.0 ],
 									"style" : "",
 									"text" : "vexpr max(min($f1\\, 255)\\,0) @scalarmode 1"
 								}
@@ -1423,7 +1449,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 585.0, 199.0, 338.0, 22.0 ],
+									"patching_rect" : [ 584.0, 280.0, 338.0, 22.0 ],
 									"style" : "",
 									"text" : "vexpr min($f1\\, $f2) + (($f2 - $f1) * ($f1 > $f2)) @scalarmode 1"
 								}
@@ -1436,7 +1462,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 380.0, 199.0, 181.0, 22.0 ],
+									"patching_rect" : [ 379.0, 280.0, 181.0, 22.0 ],
 									"style" : "",
 									"text" : "vexpr $f1 % $f2 @scalarmode 1"
 								}
@@ -1449,7 +1475,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 115.0, 199.0, 239.0, 22.0 ],
+									"patching_rect" : [ 114.0, 280.0, 239.0, 22.0 ],
 									"style" : "",
 									"text" : "vexpr max(min($f1\\, $f2)\\,0) @scalarmode 1"
 								}
@@ -1575,7 +1601,34 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 1 ],
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-14", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
@@ -1584,7 +1637,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 1 ],
+									"destination" : [ "obj-7", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
@@ -1640,11 +1693,11 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Arial Bold" ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -1680,7 +1733,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1970,7 +2023,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2153,12 +2206,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 575.0, 131.0, 805.0, 761.0 ],
+						"rect" : [ 394.0, 134.0, 805.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2193,7 +2246,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 273.0, 221.0, 150.0, 60.0 ],
+									"patching_rect" : [ 273.0, 221.0, 150.0, 62.0 ],
 									"style" : "",
 									"text" : "wormSize mod 2ensures that when wormSize is uneven, leftmost value is cut"
 								}
@@ -2206,7 +2259,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 273.0, 162.0, 150.0, 47.0 ],
+									"patching_rect" : [ 273.0, 162.0, 150.0, 48.0 ],
 									"style" : "",
 									"text" : "wormSize divided by 2 rounded ensure right length of half a list"
 								}
@@ -2545,7 +2598,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2761,11 +2814,11 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
-									"fontname" : [ "Arial Bold" ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Arial Bold" ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -3452,7 +3505,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "listEnv.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3461,11 +3514,11 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"fontname" : [ "Arial Bold" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
