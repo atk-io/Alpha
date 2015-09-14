@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 683.0, 79.0, 1001.0, 926.0 ],
+		"rect" : [ 683.0, 85.0, 1001.0, 926.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -686,6 +686,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
@@ -693,14 +694,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 88.5, 57.0, 69.0, 22.0 ],
+					"patching_rect" : [ 88.5, 57.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "adc~ 11 12"
+					"text" : "adc~ 13 14"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
@@ -708,14 +710,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 305.5, 50.0, 69.0, 22.0 ],
+					"patching_rect" : [ 305.5, 50.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "adc~ 11 12"
+					"text" : "adc~ 13 14"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
@@ -723,9 +726,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 556.731506, 52.0, 69.0, 22.0 ],
+					"patching_rect" : [ 556.731506, 52.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "adc~ 11 12"
+					"text" : "adc~ 13 14"
 				}
 
 			}
@@ -2591,7 +2594,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "analSrc.txt",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
+				"bootpath" : "~/GitHub/Alpha/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2600,12 +2603,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
