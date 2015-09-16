@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1852.0, 963.0 ],
+		"rect" : [ -1886.0, 77.0, 1852.0, 929.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -97,9 +97,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 956.0, 501.0, 414.0, 40.0 ],
+					"patching_rect" : [ 956.0, 501.0, 414.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.0, 78.5, 226.0, 40.0 ],
+					"presentation_rect" : [ 262.0, 78.5, 226.0, 46.0 ],
 					"style" : "",
 					"text" : "ARC Rohzlas"
 				}
@@ -375,8 +375,8 @@
 					"presentation_rect" : [ 177.0, 165.0, 40.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[20]",
-							"parameter_shortname" : "live.text[12]",
+							"parameter_longname" : "randx[2]",
+							"parameter_shortname" : "live.numbox[9]",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
 							"parameter_enum" : [ "val1", "val2" ]
@@ -429,8 +429,8 @@
 					"presentation_rect" : [ 62.0, 165.0, 53.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[25]",
-							"parameter_shortname" : "live.text[9]",
+							"parameter_longname" : "live.numbox[26]",
+							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
 							"parameter_enum" : [ "banger", "val2" ]
@@ -456,7 +456,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -753,7 +753,7 @@
 					"presentation_rect" : [ 35.0, 78.5, 65.5, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[16]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_shortname" : "live.text[5]",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -1036,7 +1036,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 453.6875, 605.5, 208.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 955, 636 ],
+						"client_rect" : [ 4, 44, 955, 635 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
@@ -1136,7 +1136,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 48.5, 58.0, 27.0 ],
 					"style" : "",
-					"text" : "audio"
+					"text" : "audio",
+					"varname" : "Audio"
 				}
 
 			}
@@ -1603,243 +1604,343 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-53::obj-33" : [ "live.text[10]", "live.text", 0 ],
-			"obj-2::obj-157" : [ "live.text[3]", "live.text", 0 ],
-			"obj-2::obj-155" : [ "live.text[2]", "live.text", 0 ],
-			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-2::obj-159" : [ "live.text[4]", "live.text", 0 ],
-			"obj-35" : [ "live.text[25]", "live.text[9]", 0 ],
-			"obj-3::obj-47" : [ "live.text[5]", "live.text[2]", 0 ],
+			"obj-2::obj-53::obj-59" : [ "live.numbox[21]", "live.numbox[8]", 0 ],
+			"obj-2::obj-53::obj-63" : [ "live.numbox[22]", "live.numbox[8]", 0 ],
+			"obj-2::obj-34::obj-47" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-2::obj-34::obj-26" : [ "y", "live.numbox", 0 ],
+			"obj-229" : [ "live.text[19]", "live.text[5]", 0 ],
+			"obj-2::obj-29::obj-98" : [ "drand[1]", "live.numbox[9]", 0 ],
+			"obj-2::obj-47::obj-31::obj-9" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-2::obj-34::obj-81" : [ "coords", "live.menu[1]", 0 ],
+			"obj-2::obj-29::obj-90" : [ "xyzmax[1]", "live.numbox[11]", 0 ],
+			"obj-2::obj-29::obj-25" : [ "x[1]", "live.numbox", 0 ],
+			"obj-2::obj-34::obj-44" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-2::obj-34::obj-34" : [ "live.numbox[6]", "live.numbox", 0 ],
+			"obj-53::obj-33" : [ "live.text[14]", "live.text", 0 ],
+			"obj-2::obj-34::obj-28" : [ "rndRate", "live.numbox", 0 ],
+			"obj-2::obj-47::obj-31::obj-58" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-2::obj-53::obj-74" : [ "live.numbox[19]", "live.numbox[8]", 0 ],
+			"obj-2::obj-29::obj-63" : [ "randy[1]", "live.numbox[9]", 0 ],
 			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
-			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
-			"obj-34::obj-9" : [ "live.text[12]", "live.text[9]", 0 ],
-			"obj-4::obj-104::obj-50" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-34::obj-10" : [ "live.text[13]", "live.text[9]", 0 ],
+			"obj-2::obj-47::obj-59" : [ "live.numbox[11]", "live.numbox[8]", 0 ],
+			"obj-54" : [ "randx[2]", "live.numbox[9]", 0 ],
+			"obj-2::obj-29::obj-28" : [ "rndRate[1]", "live.numbox", 0 ],
+			"obj-2::obj-53::obj-31::obj-58" : [ "live.gain~[9]", "live.gain~", 0 ],
 			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
-			"obj-4::obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
-			"obj-53::obj-61" : [ "live.text[9]", "live.text", 0 ],
-			"obj-53::obj-58" : [ "live.text[8]", "live.text", 0 ],
-			"obj-53::obj-56" : [ "live.text[11]", "live.text", 0 ],
+			"obj-2::obj-47::obj-31::obj-10" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-2::obj-34::obj-103" : [ "arand", "live.numbox[9]", 0 ],
+			"obj-2::obj-53::obj-31::obj-59" : [ "live.gain~[10]", "live.gain~", 0 ],
+			"obj-2::obj-228" : [ "live.text[6]", "live.text[5]", 0 ],
 			"obj-4::obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-3::obj-37" : [ "live.text[6]", "live.text", 0 ],
-			"obj-3::obj-36" : [ "live.text[7]", "live.text", 0 ],
-			"obj-2::obj-148" : [ "live.text", "live.text", 0 ],
-			"obj-229" : [ "live.text[16]", "live.text[5]", 0 ],
+			"obj-2::obj-34::obj-89" : [ "minxyz", "live.numbox[11]", 0 ],
+			"obj-2::obj-34::obj-63" : [ "randy", "live.numbox[9]", 0 ],
+			"obj-2::obj-29::obj-46" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-2::obj-47::obj-5" : [ "live.numbox[10]", "live.numbox[10]", 0 ],
+			"obj-53::obj-61" : [ "live.text[11]", "live.text", 0 ],
+			"obj-2::obj-47::obj-53" : [ "live.numbox[17]", "live.numbox[8]", 0 ],
+			"obj-2::obj-34::obj-90" : [ "xyzmax", "live.numbox[11]", 0 ],
+			"obj-2::obj-53::obj-53" : [ "live.numbox[24]", "live.numbox[8]", 0 ],
+			"obj-2::obj-23" : [ "satAmbiVol[1]", "live.gain~[1]", 0 ],
+			"obj-2::obj-34::obj-46" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-2::obj-53::obj-6" : [ "live.numbox[18]", "live.numbox[10]", 0 ],
+			"obj-2::obj-47::obj-31::obj-11" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-2::obj-229" : [ "live.text[7]", "live.text[5]", 0 ],
+			"obj-4::obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
+			"obj-2::obj-29::obj-35" : [ "live.numbox[9]", "live.numbox", 0 ],
+			"obj-2::obj-34::obj-45" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-2::obj-29::obj-103" : [ "arand[1]", "live.numbox[9]", 0 ],
 			"obj-2::obj-149" : [ "live.text[1]", "live.text", 0 ],
+			"obj-2::obj-34::obj-54" : [ "randx", "live.numbox[9]", 0 ],
+			"obj-2::obj-29::obj-45" : [ "live.toggle[7]", "live.toggle", 0 ],
+			"obj-2::obj-47::obj-31::obj-57" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-2::obj-53::obj-31::obj-9" : [ "live.gain~[13]", "live.gain~", 0 ],
+			"obj-2::obj-38" : [ "Satellites", "Satellites", 0 ],
+			"obj-2::obj-29::obj-34" : [ "live.numbox[8]", "live.numbox", 0 ],
+			"obj-35" : [ "live.numbox[26]", "live.numbox", 0 ],
+			"obj-2::obj-34::obj-113" : [ "rndSmooth", "live.numbox", 0 ],
+			"obj-3::obj-36" : [ "live.text[10]", "live.text", 0 ],
+			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
+			"obj-2::obj-47::obj-70" : [ "live.numbox[13]", "live.numbox[8]", 0 ],
+			"obj-2::obj-109" : [ "Main", "Main", 0 ],
+			"obj-2::obj-157" : [ "live.text[3]", "live.text", 0 ],
+			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
+			"obj-2::obj-34::obj-25" : [ "x", "live.numbox", 0 ],
+			"obj-2::obj-155" : [ "live.text[2]", "live.text", 0 ],
+			"obj-2::obj-29::obj-54" : [ "randx[1]", "live.numbox[9]", 0 ],
+			"obj-2::obj-29::obj-42" : [ "ampSpeed[1]", "live.numbox[8]", 0 ],
+			"obj-2::obj-53::obj-5" : [ "live.numbox[25]", "live.numbox[10]", 0 ],
+			"obj-2::obj-53::obj-31::obj-57" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-2::obj-29::obj-26" : [ "y[1]", "live.numbox", 0 ],
+			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-4::obj-50" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-54" : [ "live.text[20]", "live.text[12]", 0 ]
+			"obj-2::obj-225" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-2::obj-29::obj-69" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-2::obj-68" : [ "MainSat", "MainsSat", 0 ],
+			"obj-34::obj-9" : [ "live.text[15]", "live.text[9]", 0 ],
+			"obj-2::obj-47::obj-6" : [ "live.numbox[15]", "live.numbox[10]", 0 ],
+			"obj-2::obj-53::obj-55" : [ "live.numbox[23]", "live.numbox[8]", 0 ],
+			"obj-2::obj-34::obj-35" : [ "live.numbox[7]", "live.numbox", 0 ],
+			"obj-2::obj-47::obj-55" : [ "live.numbox[16]", "live.numbox[8]", 0 ],
+			"obj-2::obj-34::obj-69" : [ "live.menu", "live.menu", 0 ],
+			"obj-2::obj-29::obj-81" : [ "coords[1]", "live.menu[1]", 0 ],
+			"obj-2::obj-47::obj-31::obj-59" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-53::obj-58" : [ "live.text[12]", "live.text", 0 ],
+			"obj-2::obj-47::obj-63" : [ "live.numbox[12]", "live.numbox[8]", 0 ],
+			"obj-2::obj-53::obj-31::obj-11" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-53::obj-56" : [ "live.text[13]", "live.text", 0 ],
+			"obj-2::obj-29::obj-44" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-2::obj-148" : [ "live.text", "live.text", 0 ],
+			"obj-2::obj-34::obj-42" : [ "ampSpeed", "live.numbox[8]", 0 ],
+			"obj-4::obj-104::obj-50" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-2::obj-34::obj-98" : [ "drand", "live.numbox[9]", 0 ],
+			"obj-2::obj-53::obj-31::obj-10" : [ "live.gain~[12]", "live.gain~", 0 ],
+			"obj-2::obj-167" : [ "Satellites[1]", "Satellites", 0 ],
+			"obj-3::obj-47" : [ "live.text[8]", "live.text[2]", 0 ],
+			"obj-2::obj-159" : [ "live.text[4]", "live.text", 0 ],
+			"obj-2::obj-29::obj-47" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-2::obj-29::obj-89" : [ "minxyz[1]", "live.numbox[11]", 0 ],
+			"obj-34::obj-10" : [ "live.text[16]", "live.text[9]", 0 ],
+			"obj-2::obj-29::obj-113" : [ "rndSmooth[1]", "live.numbox", 0 ],
+			"obj-2::obj-47::obj-74" : [ "live.numbox[14]", "live.numbox[8]", 0 ],
+			"obj-2::obj-53::obj-70" : [ "live.numbox[20]", "live.numbox[8]", 0 ],
+			"obj-3::obj-37" : [ "live.text[9]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Cadre.png",
-				"bootpath" : "~/Dropbox/ATK!/Promotion/ATK! Digizik Graphics/LogoRenders",
+				"bootpath" : "~/GitHub/Alpha/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Audio.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.genAmbiPos.js",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"bootpath" : "~/GitHub/Alpha/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ampTravel.maxpat",
+				"bootpath" : "~/GitHub/Alpha/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "between.maxpat",
+				"bootpath" : "~/GitHub/Alpha/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spacefx.maxpat",
+				"bootpath" : "~/GitHub/Alpha/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Record.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Light.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.worm.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listEnv.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.modMatrix.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "popDest.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.parseModMat.js",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"bootpath" : "~/GitHub/Alpha/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "popSrc.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "destPat.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.lfo.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.ghost.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pipeall.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.listinterp.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.switch.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormToGrid.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormToGrid.js",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"bootpath" : "~/GitHub/Alpha/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.liveMod.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "liveSrcNames.txt",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
+				"bootpath" : "~/GitHub/Alpha/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.anal.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analSrc.txt",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
+				"bootpath" : "~/GitHub/Alpha/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormRohzlas.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rohzlas.json",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
+				"bootpath" : "~/GitHub/Alpha/data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.testData.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.dmxProcessing.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "indexGen.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.OSCin.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cellSetFlash.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imp.dmx.artnetout.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
+				"name" : "ambimonitor.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mxj.mxo",
-				"type" : "iLaX"
+				"name" : "ambiencode~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "dmxusbpro.mxo",
-				"type" : "iLaX"
+				"name" : "ambidecode~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mxj.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "dmxusbpro.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontname" : [ "Arial Bold" ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
