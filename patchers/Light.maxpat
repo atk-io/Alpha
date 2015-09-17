@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 94.0, 79.0, 1480.0, 903.0 ],
+		"rect" : [ 94.0, 85.0, 1480.0, 903.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,44 @@
 		"showontab" : 1,
 		"globalpatchername" : "lumens[1]",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-109",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 665.0, 48.5, 50.0, 22.0 ],
+					"presentation_rect" : [ 667.0, 46.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 783.0, 449.25, 50.0, 22.0 ],
+					"presentation_rect" : [ 783.0, 450.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 806.0, 563.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -887,7 +925,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1702,10 +1740,10 @@
 						"styles" : [ 							{
 								"name" : "atk001",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial Bold" ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ]
 								}
@@ -1775,7 +1813,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 544.5, 449.25, 44.0, 22.0 ],
+					"patching_rect" : [ 550.0, 449.25, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "switch"
 				}
@@ -2860,6 +2898,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-107", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2873,6 +2920,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-109", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -3188,6 +3244,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -3617,140 +3682,140 @@
  ],
 		"parameters" : 		{
 			"obj-50" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
 			"obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-39::obj-31" : [ "smooth", "smooth", 0 ],
 			"obj-104::obj-50" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ]
+			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-1::obj-50" : [ "live.tab", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "alpha.worm.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listEnv.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.modMatrix.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "popDest.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.parseModMat.js",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"bootpath" : "~/GitHub/Alpha/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "popSrc.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "destPat.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.lfo.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.ghost.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pipeall.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.listinterp.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.switch.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormToGrid.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormToGrid.js",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"bootpath" : "~/GitHub/Alpha/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.liveMod.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "liveSrcNames.txt",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
+				"bootpath" : "~/GitHub/Alpha/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.anal.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analSrc.txt",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/data",
+				"bootpath" : "~/GitHub/Alpha/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormRohzlas.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mxj.mxo",
-				"type" : "iLaX"
+				"name" : "mxj.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Arial Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ]
 				}
