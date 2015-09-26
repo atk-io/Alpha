@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 74.0, 79.0, 1411.0, 963.0 ],
+		"rect" : [ 74.0, 85.0, 1411.0, 963.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,8 +38,20 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"showontab" : 1,
-		"globalpatchername" : "rec[1]",
+		"globalpatchername" : "rec[1][1]",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 588.0, 570.0, 75.0, 22.0 ],
+					"style" : "",
+					"text" : "s toLightOut"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-96",
 					"maxclass" : "newobj",
@@ -368,7 +380,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 736.0, 263.0, 150.0, 33.0 ],
+					"patching_rect" : [ 736.0, 263.0, 150.0, 34.0 ],
 					"style" : "",
 					"text" : "when playing select count for syncing check timing"
 				}
@@ -653,6 +665,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 2 ],
 					"disabled" : 0,
@@ -1095,9 +1116,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-36" : [ "live.text", "live.text", 0 ],
 			"obj-37" : [ "live.text[1]", "live.text", 0 ],
-			"obj-47" : [ "live.text[2]", "live.text[2]", 0 ]
+			"obj-47" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-36" : [ "live.text", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
