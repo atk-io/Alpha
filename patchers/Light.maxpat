@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -435,6 +435,19 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 74.0, 363.0, 115.0, 22.0 ],
+									"style" : "",
+									"text" : "metro 25 @active 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -555,11 +568,11 @@
 									"id" : "obj-32",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 183.0, 193.0, 75.0, 22.0 ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 121.0, 415.0, 40.0, 22.0 ],
 									"style" : "",
-									"text" : "speedlim 25"
+									"text" : "zl reg"
 								}
 
 							}
@@ -635,7 +648,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 142.0, 449.5, 30.0, 30.0 ],
+									"patching_rect" : [ 121.0, 456.5, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -643,19 +656,19 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-32", 0 ],
+									"destination" : [ "obj-54", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
+									"source" : [ "obj-1", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-54", 2 ],
+									"destination" : [ "obj-54", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-1", 1 ]
+									"source" : [ "obj-1", 0 ]
 								}
 
 							}
@@ -724,10 +737,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-54", 0 ],
+									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-32", 0 ]
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -736,16 +749,16 @@
 									"destination" : [ "obj-107", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-54", 0 ]
+									"source" : [ "obj-32", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-32", 0 ],
+									"destination" : [ "obj-32", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-81", 0 ]
+									"source" : [ "obj-54", 0 ]
 								}
 
 							}
@@ -755,6 +768,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-81", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-81", 0 ]
 								}
 
 							}
@@ -835,11 +857,11 @@
 								"name" : "atk001",
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontface" : [ 1 ],
-									"fontsize" : [ 11.0 ]
+									"fontsize" : [ 11.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontname" : [ "Arial Bold" ],
+									"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1029,7 +1051,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1118.0, 783.0, 128.0, 128.0 ],
+					"patching_rect" : [ 208.0, 663.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 546.0, 713.0, 411.0, 155.0 ],
 					"varname" : "alpha.anal",
@@ -1052,7 +1074,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 987.5, 783.0, 122.0, 57.0 ],
+					"patching_rect" : [ 987.5, 780.550293, 122.0, 57.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.0, 721.5, 245.0, 145.0 ],
 					"varname" : "alpha.lfo[1]",
@@ -1575,7 +1597,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 979.5, 716.5, 138.0, 60.0 ],
+					"patching_rect" : [ 469.5, 667.452881, 138.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1318.0, 57.518818, 524.0, 393.0 ],
 					"varname" : "alpha.modMatrix",
@@ -1737,7 +1759,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1278.552612, 431.0, 675.724365, 714.783577 ],
+					"patching_rect" : [ 1278.552612, 431.0, 799.805786, 846.037334 ],
 					"pic" : "/Users/isjtar/Dropbox/ATK!/Promotion/ATK! Digizik Graphics/LogoRenders/LogoCadreSquare.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 1310.5, 12.518817, 512.0, 541.595376 ]
@@ -2402,10 +2424,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-39::obj-74" : [ "smooth[1]", "smooth", 0 ],
 			"obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-39::obj-31" : [ "smooth", "smooth", 0 ],
 			"obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ]
+			"obj-39::obj-31" : [ "smooth", "smooth", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2538,11 +2561,11 @@
 				"name" : "atk001",
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ]
+					"fontsize" : [ 11.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Arial Bold" ],
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
