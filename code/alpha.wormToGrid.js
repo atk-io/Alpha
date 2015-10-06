@@ -34,15 +34,18 @@ function list(val){
 		rows[i] = new Array(inputList.length);
 	}
 	
-	// put values
 	for(i = 0; i < inputList.length; i++){	
 	// find out which row
 		var loca;
-		loca = Math.min(Math.floor((inputList[i] / 255) * (numRows + 1)), numRows - 1);	
-		rows[loca][i] = 255;  
+		if(Math.floor(inputList[i]) == 0){
+			// make 0 val turn off column
+			loca = 0;
+		} else {
+			loca = Math.min(Math.floor((inputList[i] / 255) * (numRows + 1)), numRows - 1);	
+			rows[loca][i] = 255;  
+		}		
 	}
 
-	
 	// glue lists together
 	for (i = 0; i < numRows; i++){
 		outputList = outputList.concat(rows[i]);  
