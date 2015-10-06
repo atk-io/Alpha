@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1529.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 1529.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,45 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 135.0, 279.0, 62.0, 22.0 ],
+					"style" : "",
+					"text" : "zl change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 264.033325, 446.0, 61.0, 22.0 ],
+					"style" : "",
+					"text" : "tempo $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 9,
+					"outlettype" : [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
+					"patching_rect" : [ 135.0, 478.0, 103.0, 22.0 ],
+					"style" : "",
+					"text" : "transport"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "message",
@@ -232,7 +271,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.200001, 142.399994, 150.0, 33.0 ],
+					"patching_rect" : [ 39.200001, 142.399994, 150.0, 34.0 ],
 					"style" : "",
 					"text" : "split controllers from transport"
 				}
@@ -276,7 +315,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1028,7 +1067,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1739,6 +1778,42 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2000,7 +2075,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 1 ]
@@ -2091,7 +2166,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "cellSetFlash.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
