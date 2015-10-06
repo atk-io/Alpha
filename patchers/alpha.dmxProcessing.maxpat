@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,6 +38,36 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 696.0, 200.0, 35.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 283.0, 75.0, 35.0, 22.0 ],
+					"style" : "",
+					"text" : "read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 619.0, 149.0, 35.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 283.0, 51.0, 35.0, 22.0 ],
+					"style" : "",
+					"text" : "read"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -48,7 +78,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -293,7 +323,7 @@
 			}
 , 			{
 				"box" : 				{
-					"editor_rect" : [ 1823.0, 216.0, 1920.0, 937.0 ],
+					"editor_rect" : [ -8.0, 216.0, 1920.0, 937.0 ],
 					"embed" : 1,
 					"id" : "obj-30",
 					"maxclass" : "newobj",
@@ -858,6 +888,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1092,13 +1140,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-9" : [ "live.text[12]", "live.text[9]", 0 ],
-			"obj-10" : [ "live.text[13]", "live.text[9]", 0 ]
+			"obj-10" : [ "live.text[13]", "live.text[9]", 0 ],
+			"obj-9" : [ "live.text[12]", "live.text[9]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "indexGen.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
