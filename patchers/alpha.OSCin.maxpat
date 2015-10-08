@@ -38,6 +38,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 68.700005, 423.0, 95.0, 22.0 ],
+					"style" : "",
+					"text" : "s transportState"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1835,6 +1847,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2241,7 +2262,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "cellSetFlash.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

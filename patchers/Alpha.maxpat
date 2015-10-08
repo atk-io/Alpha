@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 121.0, 1559.0, 929.0 ],
+		"rect" : [ -1383.0, -163.0, 1341.0, 734.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -564,7 +564,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 72.0, 695.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 289.0, 205.0, 65.0, 32.0 ],
+					"presentation_rect" : [ 287.0, 301.0, 65.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.menu[2]",
@@ -645,7 +645,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 31.0, 269.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 205.0, 223.0, 32.0 ],
+					"presentation_rect" : [ 24.0, 301.0, 223.0, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab[5]",
@@ -709,7 +709,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 956.0, 501.0, 414.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.0, 78.5, 226.0, 46.0 ],
+					"presentation_rect" : [ 231.0, 105.5, 226.0, 46.0 ],
 					"style" : "",
 					"text" : "ARC Rohzlas"
 				}
@@ -723,7 +723,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 116.5, 203.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.5, 248.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 79.5, 344.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "list length"
 				}
@@ -739,7 +739,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 57.5, 203.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 248.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 24.0, 344.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -765,7 +765,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 514.0, 211.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.0, 130.0, 39.0, 20.0 ],
+					"presentation_rect" : [ 260.0, 226.0, 39.0, 20.0 ],
 					"style" : "",
 					"text" : "init"
 				}
@@ -780,7 +780,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 398.0, 36.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 262.0, 153.5, 24.0, 24.0 ],
+					"presentation_rect" : [ 260.0, 249.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -796,7 +796,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 286.0, 657.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.0, 165.0, 53.0, 19.0 ],
+					"presentation_rect" : [ 117.0, 261.0, 53.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[18]",
@@ -952,7 +952,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 32.0, 516.5, 330.5, 111.0 ],
+					"patching_rect" : [ 31.0, 516.5, 330.5, 111.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 517.0, 292.0, 107.0 ],
 					"viewvisibility" : 1
@@ -970,7 +970,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 157.0, 279.5, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 165.0, 40.0, 20.0 ],
+					"presentation_rect" : [ 175.0, 261.0, 40.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "randx[2]",
@@ -1024,7 +1024,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 31.0, 798.25, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 62.0, 165.0, 53.0, 19.0 ],
+					"presentation_rect" : [ 60.0, 261.0, 53.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[14]",
@@ -1348,7 +1348,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 717.318115, 487.5, 65.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 78.5, 65.5, 16.0 ],
+					"presentation_rect" : [ 33.0, 174.5, 65.5, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[19]",
@@ -1376,7 +1376,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 651.818176, 487.5, 65.5, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 118.5, 65.5, 16.0 ],
+					"presentation_rect" : [ 33.0, 214.5, 65.5, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[17]",
@@ -1404,7 +1404,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 615.318176, 487.5, 31.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 98.5, 65.5, 16.0 ],
+					"presentation_rect" : [ 33.0, 194.5, 65.5, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.text[21]",
@@ -1431,7 +1431,7 @@
 					"patching_rect" : [ 453.6875, 358.0, 101.0, 77.0 ],
 					"pattrstorage" : "alpha",
 					"presentation" : 1,
-					"presentation_rect" : [ 106.0, 57.5, 101.0, 100.0 ],
+					"presentation_rect" : [ 110.0, 25.0, 101.0, 221.0 ],
 					"style" : ""
 				}
 
@@ -1728,27 +1728,6 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-22",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 789.0, 691.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 33.5, 223.0, 161.0 ],
-					"proportion" : 0.39,
-					"rounded" : 0,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"autofit" : 1,
 					"id" : "obj-5",
 					"maxclass" : "fpic",
@@ -1758,7 +1737,7 @@
 					"patching_rect" : [ 789.0, 497.0, 137.821777, 189.948425 ],
 					"pic" : "/Users/atk/Dropbox/ATK!/Promotion/ATK! Digizik Graphics/LogoRenders/Cadre.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 2.183197, 528.0, 683.633606 ]
+					"presentation_rect" : [ 4.0, 0.183197, 528.0, 683.633606 ]
 				}
 
 			}
@@ -2252,203 +2231,203 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-34::obj-9" : [ "live.text[22]", "live.text[9]", 0 ],
-			"obj-4::obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-229" : [ "live.text[19]", "live.text[5]", 0 ],
-			"obj-53::obj-61" : [ "live.text[11]", "live.text", 0 ],
-			"obj-53::obj-33" : [ "live.text[14]", "live.text", 0 ],
 			"obj-4::obj-50" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-3::obj-36" : [ "live.text[10]", "live.text", 0 ],
-			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
-			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
-			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-4::obj-39::obj-74" : [ "smooth[1]", "smooth", 0 ],
 			"obj-54" : [ "randx[2]", "live.numbox[9]", 0 ],
-			"obj-53::obj-56" : [ "live.text[13]", "live.text", 0 ],
-			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
 			"obj-4::obj-104::obj-50" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-3::obj-37" : [ "live.text[9]", "live.text", 0 ],
-			"obj-69" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-3::obj-47" : [ "live.text[8]", "live.text[2]", 0 ],
-			"obj-35" : [ "live.numbox[14]", "live.numbox", 0 ],
-			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
-			"obj-53::obj-58" : [ "live.text[12]", "live.text", 0 ],
+			"obj-229" : [ "live.text[19]", "live.text[5]", 0 ],
+			"obj-3::obj-37" : [ "live.text[1]", "live.text", 0 ],
 			"obj-55" : [ "live.tab[5]", "live.tab[5]", 0 ],
+			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
+			"obj-53::obj-33" : [ "live.text[3]", "live.text", 0 ],
+			"obj-3::obj-47" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-69" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
+			"obj-53::obj-56" : [ "live.text[5]", "live.text", 0 ],
+			"obj-4::obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-4::obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-34::obj-10" : [ "live.text[23]", "live.text[9]", 0 ]
+			"obj-53::obj-58" : [ "live.text[6]", "live.text", 0 ],
+			"obj-34::obj-9" : [ "live.text[12]", "live.text[9]", 0 ],
+			"obj-53::obj-61" : [ "live.text[7]", "live.text", 0 ],
+			"obj-34::obj-10" : [ "live.text[13]", "live.text[9]", 0 ],
+			"obj-4::obj-39::obj-74" : [ "smooth[1]", "smooth", 0 ],
+			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
+			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
+			"obj-35" : [ "live.numbox[14]", "live.numbox", 0 ],
+			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-3::obj-36" : [ "live.text", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Cadre.png",
-				"bootpath" : "~/ATK!/GIT/Alpha/media",
+				"bootpath" : "~/GitHub/Alpha/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Record.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Light.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.worm.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listEnv.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.modMatrix.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "popDest.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.parseModMat.js",
-				"bootpath" : "~/ATK!/GIT/Alpha/code",
+				"bootpath" : "~/GitHub/Alpha/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "popSrc.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "destPat.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.lfo.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.ghost.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pipeall.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.listinterp.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.switch.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormToGrid.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormToGrid.js",
-				"bootpath" : "~/ATK!/GIT/Alpha/code",
+				"bootpath" : "~/GitHub/Alpha/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.liveMod.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "liveSrcNames.txt",
-				"bootpath" : "~/ATK!/GIT/Alpha/data",
+				"bootpath" : "~/GitHub/Alpha/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.anal.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analSrc.txt",
-				"bootpath" : "~/ATK!/GIT/Alpha/data",
+				"bootpath" : "~/GitHub/Alpha/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.wormRohzlas.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rohzlas.json",
-				"bootpath" : "~/ATK!/GIT/Alpha/data",
+				"bootpath" : "~/GitHub/Alpha/data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.testData.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.dmxProcessing.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "indexGen.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.OSCin.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cellSetFlash.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imp.dmx.artnetout.maxpat",
-				"bootpath" : "~/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2465,12 +2444,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",

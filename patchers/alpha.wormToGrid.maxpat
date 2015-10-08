@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 335.0, 79.0, 1355.0, 963.0 ],
+		"rect" : [ 42.0, 85.0, 1886.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 229.0, 575.0, 150.0, 33.0 ],
+					"patching_rect" : [ 229.0, 575.0, 150.0, 34.0 ],
 					"style" : "",
 					"text" : "to enable lag, othwerwise curves etc trig all the time"
 				}
@@ -299,7 +299,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 422.0, 273.0, 136.0, 22.0 ],
-					"restore" : [ 0.5 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -318,7 +318,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 155.0, 268.0, 109.0, 22.0 ],
-					"restore" : [ 1000 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -605,7 +605,9 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-14", 0 ]
+					"source" : [ "obj-14", 0 ],
+					"watchpoint_flags" : 1,
+					"watchpoint_id" : 2
 				}
 
 			}
@@ -632,7 +634,9 @@
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
+					"source" : [ "obj-16", 0 ],
+					"watchpoint_flags" : 1,
+					"watchpoint_id" : 5
 				}
 
 			}
@@ -686,7 +690,9 @@
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
+					"source" : [ "obj-2", 1 ],
+					"watchpoint_flags" : 1,
+					"watchpoint_id" : 3
 				}
 
 			}
@@ -803,7 +809,9 @@
 					"destination" : [ "obj-27", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-29", 0 ]
+					"source" : [ "obj-29", 0 ],
+					"watchpoint_flags" : 1,
+					"watchpoint_id" : 6
 				}
 
 			}
@@ -857,7 +865,9 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-50", 0 ]
+					"source" : [ "obj-50", 0 ],
+					"watchpoint_flags" : 1,
+					"watchpoint_id" : 1
 				}
 
 			}
@@ -866,7 +876,9 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-7", 0 ]
+					"source" : [ "obj-7", 0 ],
+					"watchpoint_flags" : 1,
+					"watchpoint_id" : 4
 				}
 
 			}
@@ -891,19 +903,19 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "alpha.wormToGrid.js",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/code",
+				"bootpath" : "~/GitHub/Alpha/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pipeall.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "alpha.listinterp.maxpat",
-				"bootpath" : "~/Projects/ATK!/GIT/Alpha/patchers",
+				"bootpath" : "~/GitHub/Alpha/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -912,12 +924,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : [ 1 ],
-					"fontsize" : [ 11.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
