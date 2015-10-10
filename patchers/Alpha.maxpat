@@ -40,6 +40,31 @@
 		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 551.0, 240.0, 31.0, 22.0 ],
+					"style" : "",
+					"text" : "196"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 645.0, 53.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -952,7 +977,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 31.0, 516.5, 330.5, 111.0 ],
+					"patching_rect" : [ 32.0, 516.5, 330.5, 111.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 20.0, 517.0, 292.0, 107.0 ],
 					"viewvisibility" : 1
@@ -1144,9 +1169,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 160.0, 225.0, 160.0, 22.0 ],
+									"patching_rect" : [ 160.0, 225.0, 45.0, 22.0 ],
 									"style" : "",
-									"text" : "/dev/cu.usbserial-EN110353"
+									"text" : "COM3"
 								}
 
 							}
@@ -1455,22 +1480,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 467.0, 260.948425, 75.0, 22.0 ],
+					"patching_rect" : [ 551.0, 269.0, 75.0, 22.0 ],
 					"style" : "",
 					"text" : "s numLights"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 467.0, 227.948425, 114.0, 22.0 ],
-					"style" : "",
-					"text" : "*"
 				}
 
 			}
@@ -1852,16 +1864,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-23", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
+					"destination" : [ "obj-58", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
@@ -1946,15 +1949,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -2105,6 +2099,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2145,6 +2148,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}
@@ -2195,15 +2207,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2231,30 +2234,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-50" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-54" : [ "randx[2]", "live.numbox[9]", 0 ],
-			"obj-4::obj-104::obj-50" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-229" : [ "live.text[19]", "live.text[5]", 0 ],
-			"obj-3::obj-37" : [ "live.text[1]", "live.text", 0 ],
-			"obj-55" : [ "live.tab[5]", "live.tab[5]", 0 ],
-			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
-			"obj-53::obj-33" : [ "live.text[3]", "live.text", 0 ],
-			"obj-3::obj-47" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-69" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
-			"obj-53::obj-56" : [ "live.text[5]", "live.text", 0 ],
-			"obj-4::obj-5::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-4::obj-1::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-53::obj-58" : [ "live.text[6]", "live.text", 0 ],
 			"obj-34::obj-9" : [ "live.text[12]", "live.text[9]", 0 ],
-			"obj-53::obj-61" : [ "live.text[7]", "live.text", 0 ],
 			"obj-34::obj-10" : [ "live.text[13]", "live.text[9]", 0 ],
 			"obj-4::obj-39::obj-74" : [ "smooth[1]", "smooth", 0 ],
+			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
+			"obj-4::obj-1::obj-50" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
+			"obj-4::obj-50" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-54" : [ "randx[2]", "live.numbox[9]", 0 ],
+			"obj-4::obj-104::obj-50" : [ "live.tab", "live.tab", 0 ],
 			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
 			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
+			"obj-4::obj-2::obj-50" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-35" : [ "live.numbox[14]", "live.numbox", 0 ],
-			"obj-4::obj-2::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-3::obj-36" : [ "live.text", "live.text", 0 ]
+			"obj-55" : [ "live.tab[5]", "live.tab[5]", 0 ],
+			"obj-3::obj-37" : [ "live.text[1]", "live.text", 0 ],
+			"obj-69" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-3::obj-36" : [ "live.text", "live.text", 0 ],
+			"obj-53::obj-56" : [ "live.text[5]", "live.text", 0 ],
+			"obj-53::obj-33" : [ "live.text[3]", "live.text", 0 ],
+			"obj-53::obj-58" : [ "live.text[6]", "live.text", 0 ],
+			"obj-3::obj-47" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-229" : [ "live.text[19]", "live.text[5]", 0 ],
+			"obj-4::obj-5::obj-50" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-53::obj-61" : [ "live.text[7]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2444,12 +2447,12 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial Bold" ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontname" : [ "Arial Bold" ],
+					"selectioncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

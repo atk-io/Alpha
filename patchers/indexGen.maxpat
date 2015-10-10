@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -43,9 +43,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 50.0, 225.0, 77.666687, 22.0 ],
+					"patching_rect" : [ 50.0, 223.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "zl reg"
+					"text" : "zl 1024 reg"
 				}
 
 			}
@@ -56,9 +56,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 108.666687, 192.0, 52.0, 22.0 ],
+					"patching_rect" : [ 108.666687, 194.0, 83.0, 22.0 ],
 					"style" : "",
-					"text" : "zl group"
+					"text" : "zl 1024 group"
 				}
 
 			}
@@ -108,7 +108,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -199,7 +199,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"embedsnapshot" : 0
 	}
 
 }
