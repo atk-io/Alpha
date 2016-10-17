@@ -1,0 +1,14 @@
+
+{
+  softwareVersion = {majorVersion = 6, minorVersion = 6, buildRevision = 383, revisionString = "9096cbc"}, 
+  lastModificationTime = 1461840347585, 
+  files = 
+  {
+    {fileName = "code"}, 
+    {fileName = "data"}, 
+    {fileName = "media"}, 
+    {fileName = "other"}, 
+    {fileName = "patchers"}, 
+    {fileName = "Alpha.maxproj"}
+  }
+}

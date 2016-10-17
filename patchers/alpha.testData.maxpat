@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 4,
+			"minor" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 357.0, 79.0, 1529.0, 963.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -434,9 +434,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 150.0, 266.0, 77.0, 22.0 ],
+					"patching_rect" : [ 150.0, 266.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "zl group 196"
+					"text" : "zl group 48"
 				}
 
 			}
@@ -447,9 +447,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 150.0, 188.0, 49.0, 22.0 ],
+					"patching_rect" : [ 150.0, 188.0, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "uzi 196"
+					"text" : "uzi 48"
 				}
 
 			}
@@ -479,7 +479,7 @@
 					"presentation_rect" : [ 2.0, 36.0, 738.0, 443.0 ],
 					"setminmax" : [ 0.0, 255.0 ],
 					"setstyle" : 1,
-					"size" : 210,
+					"size" : 197,
 					"spacing" : 1,
 					"style" : ""
 				}
@@ -758,14 +758,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-56" : [ "live.text[5]", "live.text", 0 ],
-			"obj-33" : [ "live.text", "live.text", 0 ],
 			"obj-58" : [ "live.text[6]", "live.text", 0 ],
+			"obj-33" : [ "live.text", "live.text", 0 ],
+			"obj-56" : [ "live.text[5]", "live.text", 0 ],
 			"obj-61" : [ "live.text[7]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
