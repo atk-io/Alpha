@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 132.0, 114.0, 1852.0, 929.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2184,26 +2184,26 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-53::obj-33" : [ "live.text", "live.text", 0 ],
-			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
-			"obj-4::obj-5::obj-50" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-53::obj-58" : [ "live.text[6]", "live.text", 0 ],
-			"obj-54" : [ "randx[2]", "live.numbox[9]", 0 ],
-			"obj-69" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
-			"obj-4::obj-50" : [ "live.tab[4]", "live.tab", 0 ],
 			"obj-30" : [ "live.text[18]", "live.text[9]", 0 ],
-			"obj-53::obj-56" : [ "live.text[5]", "live.text", 0 ],
+			"obj-4::obj-2::obj-50" : [ "live.tab[7]", "live.tab", 0 ],
 			"obj-228" : [ "live.text[17]", "live.text[5]", 0 ],
-			"obj-53::obj-61" : [ "live.text[7]", "live.text", 0 ],
+			"obj-53::obj-58" : [ "live.text[6]", "live.text", 0 ],
+			"obj-4::obj-5::obj-50" : [ "live.tab[6]", "live.tab", 0 ],
 			"obj-34::obj-9" : [ "live.text[12]", "live.text[9]", 0 ],
 			"obj-34::obj-10" : [ "live.text[13]", "live.text[9]", 0 ],
 			"obj-4::obj-104::obj-50" : [ "live.tab", "live.tab", 0 ],
-			"obj-229" : [ "live.text[19]", "live.text[5]", 0 ],
 			"obj-4::obj-39::obj-74" : [ "smooth[1]", "smooth", 0 ],
-			"obj-4::obj-1::obj-50" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-229" : [ "live.text[19]", "live.text[5]", 0 ],
 			"obj-35" : [ "live.numbox[14]", "live.numbox", 0 ],
-			"obj-4::obj-2::obj-50" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-69" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-225" : [ "live.text[21]", "live.text[5]", 0 ],
+			"obj-4::obj-1::obj-50" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-53::obj-56" : [ "live.text[5]", "live.text", 0 ],
+			"obj-53::obj-33" : [ "live.text", "live.text", 0 ],
+			"obj-54" : [ "randx[2]", "live.numbox[9]", 0 ],
+			"obj-4::obj-50" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-53::obj-61" : [ "live.text[7]", "live.text", 0 ],
+			"obj-4::obj-39::obj-31" : [ "smooth", "smooth", 0 ],
 			"obj-55" : [ "live.tab[5]", "live.tab[5]", 0 ]
 		}
 ,
@@ -2398,8 +2398,8 @@
 		"styles" : [ 			{
 				"name" : "atk001",
 				"default" : 				{
-					"fontface" : [ 1 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontface" : [ 1 ],
 					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],

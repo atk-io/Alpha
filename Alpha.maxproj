@@ -1,9 +1,9 @@
 {
 	"name" : "Alpha",
 	"version" : 1,
-	"creationdate" : -788024590,
-	"modificationdate" : 3524900970,
-	"viewrect" : [ 4.0, 45.0, 469.0, 855.0 ],
+	"creationdate" : -788024711,
+	"modificationdate" : 3559631406,
+	"viewrect" : [ -1919.0, 78.0, 469.0, 855.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,16 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"Audio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Record.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"Light.maxpat" : 			{
@@ -101,6 +91,11 @@
 				"local" : 1
 			}
 ,
+			"alpha.glitchMatrix.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"alpha.testData.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -127,6 +122,26 @@
 			}
 ,
 			"imp.dmx.artnetout.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Audio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ampTravel.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"spacefx.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Record.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -198,16 +213,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"ampTravel.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"spacefx.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
@@ -235,17 +240,17 @@
 		}
 ,
 		"code" : 		{
-			"alpha.genAmbiPos.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
 			"alpha.parseModMat.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
 			"alpha.wormToGrid.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"alpha.genAmbiPos.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -313,12 +318,7 @@
 ,
 		"other" : 		{
 			"alpha.represent.app" : 			{
-				"kind" : "application",
-				"singleton" : 				{
-					"bootpath" : "~/Dropbox/ATK!/Promotion/danski_logo",
-					"projectrelativepath" : "../../../../Dropbox/ATK!/Promotion/danski_logo"
-				}
-
+				"kind" : "application"
 			}
 
 		}
